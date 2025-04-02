@@ -365,7 +365,7 @@ p {
 .hero {
   position: relative;
   height: 600px;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
