@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | FastTow - Professional Towing Services</title>
+    <meta name="description" content="Explore our comprehensive towing services including emergency towing, roadside assistance, accident recovery, and more.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional styles for services page */
+        .service-detail {
+            padding: var(--spacing-xxl) 0;
+            border-bottom: 1px solid var(--gray-light);
+        }
+        
+        .service-detail:last-child {
+            border-bottom: none;
+        }
+        
+        .service-detail-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+            align-items: center;
+        }
+        
+        .service-detail-content.reverse {
+            direction: rtl;
+        }
+        
+        .service-detail-content.reverse .content-column {
+            direction: ltr;
+        }
+        
+        .service-detail-content.reverse .image-column {
+            direction: ltr;
+        }
+        
+        .service-detail h2 {
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .service-detail-list {
+            margin: var(--spacing-lg) 0;
+        }
+        
+        .service-detail-list li {
+            margin-bottom: var(--spacing-sm);
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-sm);
+        }
+        
+        .service-detail-list li i {
+            color: var(--primary-color);
+            margin-top: 0.25rem;
+        }
+        
+        @media (max-width: 991px) {
+            .service-detail-content,
+            .service-detail-content.reverse {
+                grid-template-columns: 1fr;
+                direction: ltr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Emergency Call Banner -->
+    <div class="emergency-banner">
+        <div class="container">
+            <i class="fas fa-phone"></i>
+            <p>24/7 Emergency Towing:</p>
+            <a href="tel:+15551234567">(555) 123-4567</a>
+        </div>
+    </div>
+
+    <!-- Header (Same as index.html) -->
+    <!-- ... Header code ... -->
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Towing Services</h1>
+                <p>Professional towing and roadside assistance services available 24/7.</p>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section class="services-overview">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Comprehensive Towing Solutions</h2>
+                    <p>At FastTow, we offer a wide range of professional towing and roadside assistance services to meet all your vehicle recovery and transportation needs. Our experienced team is available 24/7 to provide prompt and reliable service.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Towing Service -->
+        <section id="emergency" class="service-detail">
+            <div class="container">
+                <div class="service-detail-content">
+                    <div class="content-column">
+                        <h2>Emergency Towing</h2>
+                        <p>Our 24/7 emergency towing service is designed to get you and your vehicle to safety quickly when you need it most. Whether you've experienced a breakdown, accident, or other vehicle emergency, our professional team is just a call away.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Available 24 hours a day, 7 days a week, 365 days a year</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Fast response times with strategically located tow trucks</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Professional operators trained to handle all types of vehicles</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Safe and secure transportation to your preferred destination</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Competitive rates with no hidden fees or charges</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="tel:+15551234567" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            <span>Call for Emergency Towing</span>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/emergency-towing.jpg" alt="Emergency towing service" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadside Assistance -->
+        <section id="roadside" class="service-detail">
+            <div class="container">
+                <div class="service-detail-content reverse">
+                    <div class="content-column">
+                        <h2>Roadside Assistance</h2>
+                        <p>Our comprehensive roadside assistance services are designed to get you back on the road quickly when unexpected issues arise. From flat tires to dead batteries, our team has the skills and equipment to help.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Jump start services for dead batteries</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Flat tire changes and repairs</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Fuel delivery when you run out of gas</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Lockout assistance if you're locked out of your vehicle</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Minor mechanical assistance for quick fixes</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Learn More</span>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/roadside-assistance.jpg" alt="Roadside assistance service" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accident Recovery -->
+        <section id="accident" class="service-detail">
+            <div class="container">
+                <div class="service-detail-content">
+                    <div class="content-column">
+                        <h2>Accident Recovery</h2>
+                        <p>After an accident, our professional recovery team can safely retrieve and transport your vehicle. We handle accident recovery with care and efficiency, ensuring your vehicle is transported safely to its destination.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Specialized equipment for accident recovery</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Trained operators who prioritize vehicle safety</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Careful handling to prevent additional damage</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Transportation to repair facilities or your preferred location</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Coordination with insurance companies when needed</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="tel:+15551234567" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            <span>Call for Accident Recovery</span>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/accident-recovery.jpg" alt="Accident recovery service" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flatbed Towing -->
+        <section id="flatbed" class="service-detail">
+            <div class="container">
+                <div class="service-detail-content reverse">
+                    <div class="content-column">
+                        <h2>Flatbed Towing</h2>
+                        <p>Our flatbed towing service provides the safest method of vehicle transportation. Ideal for luxury cars, lowered vehicles, all-wheel drive vehicles, and those with transmission issues, flatbed towing ensures your vehicle arrives without additional wear and tear.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>No wheels on the ground during transport</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Ideal for damaged vehicles that cannot roll freely</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Perfect for exotic, classic, or modified vehicles</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Secure strapping system to prevent movement during transport</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Experienced operators trained in proper loading techniques</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Learn More</span>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/flatbed-towing.jpg" alt="Flatbed towing service" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Long Distance Towing -->
+        <section id="longdistance" class="service-detail">
+            <div class="container">
+                <div class="service-detail-content">
+                    <div class="content-column">
+                        <h2>Long Distance Towing</h2>
+                        <p>When you need to transport your vehicle over long distances, our long-distance towing service provides a reliable and cost-effective solution. We can transport your vehicle across the state or across the country with care and professionalism.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Interstate and long-distance vehicle transportation</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Experienced drivers for safe long-haul transport</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Regular updates on your vehicle's location and ETA</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Competitive rates for long-distance towing</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Fully insured transportation for your peace of mind</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            <span>Request a Quote</span>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/long-distance-towing.jpg" alt="Long distance towing service" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Need a Tow? We're Here to Help</h2>
+                <p>Whether you're stranded on the side of the road or need to transport a vehicle, our professional team is just a call away.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+15551234567" class="btn btn-light">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Now</span>
+                    </a>
+                    <a href="contact.html" class="btn btn-outline-light">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Same as index.html) -->
+    <!-- ... Footer code ... -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
